@@ -13,7 +13,6 @@ __pycache__/
 *.egg-info/
 
 # Machine Learning models & data (often large and generated)
-*.joblib
 *.pkl
 *.h5
 *.onnx
