@@ -2,7 +2,7 @@ import random
 import csv
 import os
 
-def generate_and_save_ev_data(num_samples=5000, filename="ev_data.csv"): # <-- Changed num_samples to 5000
+def generate_and_save_ev_data(num_samples=5000, filename="Backend/data/ev_data.csv"):
     """
     Generates synthetic data for Electric Vehicle (EV) range prediction
     and saves it to a CSV file.
@@ -96,4 +96,4 @@ def generate_and_save_ev_data(num_samples=5000, filename="ev_data.csv"): # <-- C
         print(f"Error saving file '{filename}': {e}")
 
 if __name__ == "__main__":
-    generate_and_save_ev_data(num_samples=5000, filename="ev_data.csv")
+    generate_and_save_ev_data(num_samples=5000, filename="Backend/data/ev_data.csv")

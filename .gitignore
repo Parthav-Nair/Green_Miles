@@ -20,3 +20,8 @@ __pycache__/
 # Generated output directories
 outputs/
 server/logs/
+
+node_modules
+
+ev_data.csv
+hv_data.csv

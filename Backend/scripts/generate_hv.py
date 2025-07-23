@@ -2,7 +2,7 @@ import random
 import csv
 import os
 
-def generate_and_save_hv_data(num_samples=5000, filename="hv_data_5000_samples.csv"):
+def generate_and_save_hv_data(num_samples=5000, filename="Backend/data/hv_data_5000_samples.csv"):
     """
     Generates synthetic data for Hydrogen Vehicle (HV) range prediction
     and saves it to a CSV file.
@@ -94,4 +94,4 @@ def generate_and_save_hv_data(num_samples=5000, filename="hv_data_5000_samples.c
 
 if __name__ == "__main__":
     # Call the function to generate and save 5000 samples
-    generate_and_save_hv_data(num_samples=5000, filename="hv_data_5000_samples.csv")
+    generate_and_save_hv_data(num_samples=5000, filename="Backend/data/hv.csv")

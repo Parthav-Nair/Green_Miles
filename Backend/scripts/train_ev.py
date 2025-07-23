@@ -39,13 +39,6 @@ def feature_engineering(df):
     Applies feature engineering specific to the EV model training.
     (Note: battery_per_kWh and battery_remaining_kWh are now handled in preprocess_ev_input)
     """
-    # Removed from here as they are now in preprocess_ev_input for consistency
-    # df["battery_per_kWh"] = df["battery_percentage"] / df["battery_capacity_kwh"]
-    # df["battery_remaining_kWh"] = df["battery_capacity_kwh"] * df["battery_percentage"] / 100
-    # --- CRITICAL CHANGE: REMOVED power_efficiency_ratio CALCULATION ---
-    # This feature caused data leakage as it used the target variable (electric_range_km).
-    # The model will now be trained WITHOUT this problematic feature.
-    # df["power_efficiency_ratio"] = df["total_power_kw"] / (df["electric_range_km"] + 1e-6)
     return df
 
 
