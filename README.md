@@ -40,7 +40,7 @@ Follow these steps to get the project running locally:
 ### Steps
 
 1. **Clone the repository**
-   git clone https://github.com/shashankbharadwaj27/GreenMiles.git
+   git clone https://github.com/Parthav-Nair/Green_Miles.git
    cd Green-Miles
 2. **Backend**
     cd Backend
